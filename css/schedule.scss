@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(../fonts/montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: "CynthoNext-SemiBold";
+    src: url(../fonts/cynthoNext/CynthoNext-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url(../fonts/montserrat/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url(../fonts/montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: "CynthoNext-Regular";
+    src: url(../fonts/cynthoNext/CynthoNext-Regular.ttf);
+}
+@font-face {
+    font-family: "CynthoNext-Bold";
+    src: url(../fonts/cynthoNext/CynthoNext-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url(../fonts/montserrat/Montserrat-Light.ttf);
+}
+
+
+
+
+$white: #ffffff;
+$green: #6cb2aa;
+$black: #2c2b30;
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1640px;
+    width: 100%;
+    margin: 0 auto;
+}
+h1 {
+    font-family: "Montserrat-SemiBold";
+    text-align: center;
+    font-size: 70px;
+    line-height: 85px;
+    color: $white;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+p {
+    font-family: "CynthoNext-Regular";
+    font-weight: 100;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 161.02%;
+    color: $white;
+}
+h3 {
+    font-family: "Montserrat-SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: $white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.today-btn {
+    width: 216px;
+    height: 65px;
+
+    background: $white;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-family: "CynthoNext-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 161.02%;
+
+    color: #000000;
+}
+
+.tomorrow-btn {
+    width: 216px;
+    height: 65px;
+    border: none;
+    outline: none;
+    background: $white;
+    border-radius: 20px;
+
+    font-family: "CynthoNext-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 161.02%;
+    margin-left: 20px;
+    color: #000000;
+}
+
+.schedule-info-block {
+    width: 1583px;
+    height: 82px;
+    background: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.schedule-info-item-text {
+    font-family: "CynthoNext-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 161.02%;
+    margin-top: 22px;
+    color: #000000;
+}
+.schedule-info-block-item {
+    margin-left: 90px;
+}
+.sche-item-left {
+    margin-left: 140px;
+}
+.schedule-training-block {
+    margin-bottom: 200px;
+}
+.schedule-training-block-flex {
+    display: flex;
+}
+
+.schedule-training-block-item {
+    font-family: "Montserrat-Light";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 161.02%;
+    color: #ffffff;
+}
+.item-1 {
+    margin-left: 140px;
+    width: 290px;
+}
+.item-2 {
+    width: 310px;
+}
+.item-3 {
+    width: 300px;
+}
+.item-4 {
+    width: 220px;
+}
+

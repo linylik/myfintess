@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(../fonts/montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "CynthoNext-SemiBold";
+  src: url(../fonts/cynthoNext/CynthoNext-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url(../fonts/montserrat/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url(../fonts/montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: "CynthoNext-Regular";
+  src: url(../fonts/cynthoNext/CynthoNext-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1640px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Montserrat-SemiBold";
+  text-align: center;
+  font-size: 70px;
+  line-height: 85px;
+  color: #ffffff;
+}
+
+p {
+  font-family: "CynthoNext-Regular";
+  font-weight: 100;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 161.02%;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+h3 {
+  font-family: "Montserrat-SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.gallery-block {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.gallery-block-item-flex {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 70px;
+}/*# sourceMappingURL=gallery.css.map */

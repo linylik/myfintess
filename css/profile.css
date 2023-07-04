@@ -1,0 +1,122 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(../fonts/montserrat/Montserrat-Regular.ttf);
+}
+.container {
+  max-width: 1640px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.profile-block {
+  display: flex;
+  margin-bottom: 200px;
+}
+
+.profile-image {
+  margin-top: 100px;
+}
+
+.profile-image {
+  width: 465px;
+  height: 610px;
+  border-radius: 20px;
+  background-color: #2c2b30;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.profilephoto {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: -40px;
+}
+
+.profile-text-img {
+  position: relative;
+  font-family: "Montserrat-Regular";
+  font-weight: 100;
+  font-size: 30px;
+  color: #ffffff;
+  top: 280px;
+  margin-left: 110px;
+}
+
+.profile-text-img:hover {
+  color: #b9b9b9;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modalprof {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  font-family: "Montserrat-Regular";
+  background-color: #fefefe;
+  margin: 20% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Стили для кнопки "Загрузить" в модальном окне */
+#upload-form input[type=submit] {
+  font-family: "Montserrat-Regular";
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #6cb2aa;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 120px;
+  cursor: pointer;
+}
+
+.profile-info-t-block {
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.profile-info-t {
+  font-family: "Montserrat-Regular";
+  font-size: 30px;
+  color: #ffffff;
+}/*# sourceMappingURL=profile.css.map */

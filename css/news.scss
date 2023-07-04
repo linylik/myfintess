@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(../fonts/montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: "CynthoNext-SemiBold";
+    src: url(../fonts/cynthoNext/CynthoNext-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url(../fonts/montserrat/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url(../fonts/montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: "CynthoNext-Regular";
+    src: url(../fonts/cynthoNext/CynthoNext-Regular.ttf);
+}
+
+$white: #ffffff;
+$green: #6cb2aa;
+$black: #2c2b30;
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1640px;
+    width: 100%;
+    margin: 0 auto;
+}
+h1 {
+    font-family: "Montserrat-SemiBold";
+    text-align: center;
+    font-size: 70px;
+    line-height: 85px;
+    color: $white;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+p {
+    font-family: "CynthoNext-Regular";
+    font-weight: 100;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 161.02%;
+    color: $white;
+}
+h3 {
+    font-family: "Montserrat-SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: $white;
+    text-align: center;
+    padding-top: 5px;
+}
+.news-block {
+    margin:  0 auto;
+    margin-bottom: 100px;
+}
+.news-item-block {
+    width: 1251px;
+    height: 274px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.news-item-image {
+    position: relative;
+    z-index: 0;
+    margin-top: -170px;
+}
+
+.news-item-title {
+    position: relative;
+    font-family: "Montserrat-SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    color: $white;
+    z-index: 5;
+    padding-top: 110px;
+    margin-left: 60px;
+}
+
+.news-item-time {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+.news-span-date {
+    position: relative;
+    font-family: "CynthoNext-SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: right;
+    color: $white;
+    margin-left: 1050px;
+    bottom: 50px;
+}
+
+a {
+    color: $white;
+    text-decoration: none;
+}
+

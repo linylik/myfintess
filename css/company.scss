@@ -1,0 +1,162 @@
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(../fonts/montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: "CynthoNext-SemiBold";
+    src: url(../fonts/cynthoNext/CynthoNext-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url(../fonts/montserrat/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url(../fonts/montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: "CynthoNext-Regular";
+    src: url(../fonts/cynthoNext/CynthoNext-Regular.ttf);
+}
+
+$white: #ffffff;
+$green: #6cb2aa;
+$black: #2c2b30;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1640px;
+    width: 100%;
+    margin: 0 auto;
+}
+h1 {
+    font-family: "Montserrat-SemiBold";
+    text-align: center;
+    font-size: 70px;
+    line-height: 85px;
+    color: $white; 
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+p {
+    font-family: "CynthoNext-Regular";
+    font-weight: 100;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 161.02%;
+    color: $white;
+}
+h3 {
+    font-family: "Montserrat-SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: $white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.coach-info-block {
+    margin-top: 60px;
+}
+.coach-image {
+    width: 315px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.coach-block-up {
+    display: flex;
+    justify-content: space-evenly;
+}
+.coach-block-down {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.coach-name {
+    font-family: "CynthoNext-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 161.02%;
+    color: $white;
+    margin-top: 20px;
+}
+.coach-profession {
+    font-family: "CynthoNext-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 161.02%;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+.coach-item-text {
+    text-align: center;
+}
+.myfitness-text {
+    margin-top: 20px;
+}
+
+// slider
+
+.myfitness-slider-block {
+    position: relative;
+    margin-bottom: 110px;
+    margin-top: 60px;
+}
+
+.myfitness-slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+    width: 100%;
+}
+
+.slide.active {
+    display: block;
+    opacity: 1;
+}
+
+.slide.next {
+    display: block;
+    opacity: 0;
+}
+
+.slide.prev {
+    display: block;
+    opacity: 0;
+}
+
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #bbb;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #333;
+}
